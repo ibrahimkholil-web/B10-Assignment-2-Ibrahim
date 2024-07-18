@@ -1,2 +1,418 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    margin-top: 100px;
+}
+body{
+    background-color: black;
+}
+/* All style section start */
+.container{
+    max-width: 1440px;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: black;
+    font-family: "Inter", sans-serif;
+
+}
+.flex-display{
+    display: flex;
+}
+.primary-btn{
+    padding: 16px 40px;
+    border-radius: 42px;
+    background-color: #E6533C;
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.All-title{
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;    
+}
+.All-des{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 30px;
+}
+/* nav section start here */
+.navbar{
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+.nav-left{
+    font-family: "Inter",sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 800;
+    color: #E6533C;
+    
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: left;
+    color: white;
+}
+.paimary-btn-nav{
+        padding: 8px 20px;
+        border-radius: 42px;
+        background-color: #E6533C;
+        color: white;
+        
+    }
+.harn-icon{
+    color: white;
+    font-size: 2rem;
+    display: none;
+}
+
+/* hero section start here */
+.hero-section{
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-title-style{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-weight: 400;
+}
+.hero-left-2{
+    width: 520px;
+}
+.hero-title{
+    color: rgb(255, 255, 255);
+    font-size: 5rem;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+.hero-btn{
+    padding: 16px 40px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.hero-section button{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.hero-right{
+    position: relative;
+    margin-right: 2rem;
+}
+.right-top{
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    width: 206px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 23px;
+}
+.video{
+    font-size: 2.1rem;
+    font-weight: 900;
+    color: white;
+    
+}
+.right-btn{
+    position: absolute;
+    top: 75%;
+    right: 80%;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    width: 206px;
+    background: rgba(48, 48, 48, 0.54);
+    padding: 23px;
+    align-items: center;
+    gap: 10px;
+}
+.red-circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #E6533C;
+}
+.video-num{
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: white;
+    
+}
+.tutorial{
+    margin-top: 5px;
+}
+
+/* habite style here */
+.habite-top{
+    text-align: center;
+}
+.habite-btn{
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+}
+.habite-img{
+    text-align: center;
+    width: 231px;
+    padding: 0px 10px;
+}
+.habite-img > img{
+    border-radius: 50%;
+}
+.img-name{
+    margin-top: 20px;
+    margin-bottom: -20px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    
+}
+
+/* extra mile sectin start  */
+.extra-mile{
+    background: #222222;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    border-radius: 10px;
+}
+.extra-left{
+    width: 443px;
+}
+.extra-right img{
+    width: 366px;
+     border-radius: 10px;
+}
+/* calculatoe section style */
+.bmi-bg{
+    background: rgb(34, 34, 34);
+}
+.bmi-title-section{
+    align-items: center;
+    width: 671px;
+    margin: 0 auto;
+}
+.bmi-section{
+    justify-content: space-between;
+    margin-top: 50px;
+    background: rgb(34, 34, 34);
+    padding: 52px;
+}
+.bmi-calculator-chart{
+    max-width: 720px;
+    margin: 0 auto;
+}
+.chart-title{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 900;
+    
+}
+table, td, th{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+    text-align: left;
+}
+th{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 18px;
+}
+td{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    font-weight: 400;
+    padding: 18px;
+}
+table{
+    border-collapse: collapse;
+    margin-top: 52px;
+}
+.form{
+    margin-top: 25px;
+}
+.claculator-bmi{
+    max-width: 720px;
+}
+.input-fild,
+.factor{
+    width: calc(50% - 40px);
+    padding: 25px 20px;
+    margin: 10px;
+    font-size: 1rem;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+   
+
+}
+.factor{
+    width: 93%;
+}
+option{
+    background-color: black;
+}
+/* Exercises section style */
+/* .training-btn{
+    display: flex;
+    width: 100%;
+}
+
+.two{
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr 1fr;
+} */
+
+
+/* Media section start here  */
+
+@media screen and (max-width:576px){
+    .nav-item{
+        display: none;
+    }
+    .harn-icon{
+        display: block;
+    }
+    .hero-section,
+    .habite-btn,
+    .extra-mile,
+    .bmi-section{
+        flex-direction: column;
+    }
+    .hero-title{
+        font-size: 2rem;
+    }
+    .hero-left-2{
+        width: 100%;
+    }
+    .hero-section button{
+       width: 170px;
+    }
+    .hero-btn{
+        padding: 16px 16px;
+    }
+    .primary-btn{
+        padding: 16px;
+    }
+    .right-top,
+    .right-btn{
+        position: absolute;
+        top: 10%;
+        left: 60%;
+        width: 150px;
+        padding: 10px;
+    }
+    .right-btn{
+        top: 50%;
+        left: 10%;
+    }
+    .video{
+        font-size: 1.5rem;
+    }
+    .video-num{
+        font-size: 1rem;
+    }
+    .tutorial{
+        font-size: 0.8rem;
+    }
+    .red-circle{
+        width: 20px;
+        height: 20px;
+    }
+    .All-title{
+        font-size: 1.5rem;
+    }
+    .All-des{
+        font-size: 0.8rem;
+    }
+    .extra-mile{
+        text-align: center;
+    }
+    .extra-left{
+        width: auto;
+    }
+    .extra-right img{
+        max-width: 100%;
+        
+    }
+    .extra-right{
+        margin-top: 20px;
+    }
+    .bmi-section{
+        padding: 20px 10px;
+    }
+    .bmi-calculator-chart{
+        margin: 0;
+    }
+    .chart-title{
+        font-size: 1rem;
+    }
+    table{
+        margin-top: 10px;
+    }
+    .bmi-title-section{
+        align-items: center;
+        width: auto;
+        margin: 0 auto;
+    }
+    .claculator-bmi{
+       margin-top: 30px;
+    }
+    .input-fild,
+   .factor{
+    width: calc(55% - 40px);
+    padding: 10px;
+    margin: 5px;
+    font-size: 0.8rem;
+  
+    }
+    
+    .factor{
+        width: calc(100% - 40px);
+    }
+    th, td{
+        font-size: 0.8rem;
+        padding: 5px;
+        font-weight: 400;
+    }
+    /* .training-btn,
+    .two{
+        grid-template-columns: 1fr;
+        max-width: 100%;
+    }
+    .two img{
+        height: auto;
+    } */
+
+}

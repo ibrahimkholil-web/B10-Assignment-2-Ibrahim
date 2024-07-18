@@ -283,6 +283,79 @@ table{
 option{
     background-color: black;
 }
+
+/* our team style */
+.team{
+    text-align: center;
+    margin: 50px 0px;
+}
+.our-team{
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  padding: 20px;
+  background-color: #222222; 
+  width: 1440px; 
+  margin: 0 auto;
+  border-radius: 16px;
+  gap: 20px;
+}
+.team-memberr{
+    width: 450px;
+    height: 300px;
+    border-radius: 16px;
+    opacity: 0.7;
+}
+.trainer-details{
+    position: relative;
+}
+.trainer-name{
+    position: absolute;
+    color: white;
+    font-size: 1.2rem;
+    left: 10%;
+    top: 70%;
+}
+.trainer{
+    position: absolute;
+    color: white;
+    left: 10%;
+    top: 80%;
+}
+
+/* footer section start here */
+footer > .container{
+    background-color: #222222;
+}
+footer{
+    background-color: #222222;
+}
+.footer{
+    background-color: #222222;
+    gap: 100px;
+    padding: 65px 0px;
+}
+.footer-left{
+    width: 720px;
+}
+.footer-left > div{
+    width: 443px;
+}
+.Footer-title{
+    color: rgb(230, 83, 60);
+    font-size: 4.5rem;
+    font-weight: 800;
+}
+.footer-btn{
+    gap: 152px;
+    
+}
+.hr-style{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.copy-right{
+    text-align: center;
+    margin-bottom: 10px;
+}
 /* Exercises section style */
 /* .training-btn{
     display: flex;
@@ -307,7 +380,9 @@ option{
     .hero-section,
     .habite-btn,
     .extra-mile,
-    .bmi-section{
+    .bmi-section,
+    .footer,
+    .footer-btn{
         flex-direction: column;
     }
     .hero-title{
@@ -405,6 +480,29 @@ option{
         font-size: 0.8rem;
         padding: 5px;
         font-weight: 400;
+    }
+    .our-team{
+        display: grid;
+        grid-template-columns: repeat(1, 6fr);
+        padding: 10px;
+        width:auto;
+      }
+      .team-memberr{
+        max-width: 100%;
+    }
+    .footer{
+        text-align: left;
+    }
+    .footer-left{
+        width: auto;
+    }
+    .footer-left > div{
+        width: auto;
+    }
+    .footer-btn{
+        text-align: left;
+        gap: 40px;
+        
     }
     /* .training-btn,
     .two{
